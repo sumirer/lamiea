@@ -1,0 +1,22 @@
+{
+  "name": "lamiea",
+  "version": "1.0.0",
+  "description": "scss lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumirer/lamiea.git"
+  },
+  "keywords": [
+    "scss"
+  ],
+  "author": "Mr_He",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumirer/lamiea/issues"
+  },
+  "homepage": "https://github.com/sumirer/lamiea#readme"
+}
