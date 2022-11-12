@@ -1,0 +1,5 @@
+@import '../scss/lamiea';
+
+.text-container {
+    @include lamiea-font(14)
+}  
