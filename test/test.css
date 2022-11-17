@@ -2,4 +2,30 @@
   font-size: 14;
   line-height: 24px;
   font-weight: 400;
+  color: #333;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.page-container .flex-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.page-container__flex-test {
+  overflow: hidden;
+  word-break: break-all;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  margin: 20px 20px;
+}
+.page-container__next {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
 }/*# sourceMappingURL=test.css.map */

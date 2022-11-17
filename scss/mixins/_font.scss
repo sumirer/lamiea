@@ -1,7 +1,25 @@
 @charset "utf-8";
 
-@mixin lamiea-font($size: $lamiea-font-size, $lineHeight:$lamiea-line-height, $weight:$lamiea-font-weight) {
+@mixin lamiea-font($size: $lamiea-font-size, $color: $lamiea-font-color, $lineHeight:$lamiea-line-height, $weight:$lamiea-font-weight) {
     font-size: $size;
     line-height: $lineHeight;
     font-weight: $weight;
-}
+    color: $color;
+};
+
+
+@mixin lamiea-text-overflow {
+    overflow: hidden;
+    word-break: break-all;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+};
+
+@mixin lamiea-text-multiline-overflow($line) {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $line;
+};
